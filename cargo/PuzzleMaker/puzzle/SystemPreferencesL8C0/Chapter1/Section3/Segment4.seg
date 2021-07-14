@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: renice nice
+# BEHAVIOUR_OK: continue Wabbalabadubduuub!!
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (12) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: Process Management -
+
+What command would you use in order to angryfy an existing process and turn it
+into a resource munching inconsiderate asshole?
+
+
+
+
+
+
+_______________________________________________________________________________

@@ -1,0 +1,35 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# NAMING CONVENTIONS
+
+[ NOTE ]: Puzzle directories have a single naming restriction,
+          white space is not allowed. Anything else goes.
+
+# PUZZLE STRUCTURE
+
+* PuzzleDirectory           - Located under the puzzles parent directory.
+|
+|_* game-banner             - First game page displayed. User moves forward on any key.
+|
+|_* game-over               - Last game page displayed. User input no longer supported.
+|
+|_* Chapter1                - Indexed puzzle chapter directory.
+| |
+| |_* Section1              - Indexed puzzle section directory.
+| | |
+| | |_* Segment1.seg        - Indexed puzzle segment (level)
+| | |
+| | |_* Segment2.seg
+| |
+| |_* Section2
+|   |
+|   |_* Segment1.seg
+|   |
+|   |_* Segment2.seg
+|
+|_* Chapter2
+| |
+. . .
+. . .
+. . .

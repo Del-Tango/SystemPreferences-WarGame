@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: y yes Yes YES Y
+# BEHAVIOUR_OK: continue Wabbalabadubduuub!!
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (14) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: Process Management -
+
+Using the (htop) command, can you also control processes or is it just for
+monitoring whats going on?
+
+
+
+
+
+
+_______________________________________________________________________________

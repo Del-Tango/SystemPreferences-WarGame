@@ -1,0 +1,48 @@
+_______________________________________________________________________________
+
+          System Preferences - Chapter (1) - Level (5) - Networking
+_______________________________________________________________________________
+
+Ok, come on for a minute, sit down. I've noticed your... interests lately, and I
+think you're old enough now for us to have this conversation about the birds and
+the bees - IPv4.
+
+I mean without diving too deep into details, obviously, I wouldn't want to throw
+my Morty in boiling water on such short notice, I would much rather raise the
+temperature by 1 degree Celsius every single minute :)
+
+Theres a port listening for incomming connections (9191), you have to connect to
+it Morty, so you can get to the next level! But first you would have to find out
+the machine address. Try out the (ifconfig) command maybe -
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * nc       - https://linux.die.net/man/1/nc
+| |_ * telnet   - https://linux.die.net/man/1/telnet
+| |_ * ifconfig - https://linux.die.net/man/1/ifconfig
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+  |_* https://www.linuxcommand.org/
+  |_* http://textfiles.com/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

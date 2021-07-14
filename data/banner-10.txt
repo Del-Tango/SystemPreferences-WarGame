@@ -1,0 +1,55 @@
+_______________________________________________________________________________
+
+         System Preferences - Chapter (0) - Level (1) - File Handling
+_______________________________________________________________________________
+
+Good job Morty! But oh, this is a new level, this is a new level Morty! They
+always make us skip to comercial when hopping levels Morty, what are we gonn..
+
+"""
+TEXTFILES.COM, get your text files on some really cool stuff, you got things
+about, like, computers, anarchy, the occult, and much much more, since like the
+80's or something, yeah.. Can you hear the T.E.C.H.N.O in the background? Yes
+you can because it's textfiles.com!
+
+DISCLAIMER: We have absolutely no affiliation with textfiles.com, we just think
+            it's cool.
+"""
+
+Ok, It's over, now follow my lead Morty! Try moving all these scrambled files
+into that directory over there - do it Morty! you got to do it!
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * cd    - https://man7.org/linux/man-pages/man1/cd.1p.html
+| |_ * ls    - https://man7.org/linux/man-pages/man1/ls.1.html
+| |_ * pwd   - https://man7.org/linux/man-pages/man1/pwd.1.html
+| |_ * find  - https://linux.die.net/man/1/find
+| |_ * cat   - https://www.man7.org/linux/man-pages/man1/cat.1.html
+| |_ * grep  - https://www.man7.org/linux/man-pages/man1/grep.1.html
+| |_ * mv    - https://linux.die.net/man/1/mv
+| |_ * cp    - https://linux.die.net/man/1/cp
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

@@ -1,0 +1,60 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# NAMING CONVENTIONS
+
+[ NOTE ]: Segment file names may have any non-numbered prefix of N characters,
+          but must be followed by the segment index number.
+
+[ NOTE ]: Segment files must have the .seg extension, otherwise
+          they will be ignored.
+
+# FILE FORMAT
+===============================================================================
+
+# ANSWER_TYPE: <answer-type>
+# EXPECTED: <expected-answer>
+# BEHAVIOUR_OK: <expected-match-action> <user-message optional>
+# BEHAVIOUR_NOK <expected-nomatch-action> <user-message optional>
+# NOK_LIMIT: <count optional>
+
+<text-content>
+
+===============================================================================
+
+# ANSWER TYPES
+
+single-mode            - Player must match a single field by entering a character, word or number.
+multi-mode             - Player must match multiple fields by entering characters, words or numbers.
+single-in              - Player must match one item in a given set.
+multi-in               - Player must match one or more items in a given set.
+
+# EXPECTED
+
+(single-mode)          - <word>
+(multi-mode)           - <multi word sentence>
+(single-in, multi-in)  - <word,word,word>
+
+# BEHAVIOUR OK
+
+continue               - Continue to next segment or game-over if none left.
+repeat                 - Repeats current segment.
+restart                - Resets the game to the game-banner page followed by <segment>1.seg from <chapter>1/<section>1
+game-over              - Jumps to the game-over page. No further user input supported.
+
+# BEHAVIOUR NOK
+
+continue-indexed       - Continue to next segment or game-over if none left indexing failure
+continue-unindexed     - Continue to next segment or game-over if none left dismissing failure.
+repeat-indexed         - Repeat current segment indexing failure.
+repeat-unindexed       - Repeat current segment dismissing failure.
+restart                - Resets the game to the game-banner page followed by <segment>1.seg from <chapter>1/<section>1
+game-over              - Jumps to the game-over page. No further user input supported.
+
+# NOK LIMIT
+
+[ NOTE ]: NOK_LIMIT is an optional segment instruction. If set to an integer
+          value, it will monitor the number of failures and jump to game-over
+          when the specified limit of failures is reached.
+
+

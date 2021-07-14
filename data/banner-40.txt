@@ -1,0 +1,52 @@
+_______________________________________________________________________________
+
+           System Preferences - Chapter (0) - Level (4) - Cron Jobs
+_______________________________________________________________________________
+
+"""
+Hello dear viewer. We love you. Today we interrupt this commercial to talk about
+a very serious matter which concerns us all, and I think you too. I'm talking
+ofcourse about Real Life... I FKinG LIED! This is a commercial!! Get your Real
+Life all access pass now, contact us for details on Real Life! REAL LIFE!!
+"""
+
+Morty, look! I built a new machine. It's a new machine, I named it Cron, after
+the God, only that... not really. You know when you have to do stuff at regular
+intervals? Like, maybe you want to clear your browser history every morning
+before you go to school, or update the dynamic DNS for you underground wargaming
+server?
+
+The point is you can automate Jobs, which I suppose kind of make you a little
+entrepreneurial computer fairy. The remote controll for this machines is the
+(crontab) command. Here, try it out Morty!
+
+Create a text file with the (.sh) extension, put some shell commands in it, but
+make sure to have the (#!/bin/bash) shebang on the first line. Thats the path to
+the interpreter of your commands Morty. After that you can use the (crontab) util
+to set its execution on every friday at 3am. I don't know why, don't ask me,
+there must be something about that time interval.
+
+And oh, Morty - mind your file permissions!
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+  |
+  |_ * crontab  - https://linux.die.net/man/1/crontab
+  |_ * vim      - https://linux.die.net/man/1/vim
+  |_ * chmod    - https://www.man7.org/linux/man-pages/man1/chmod.1.html
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

@@ -1,0 +1,80 @@
+#!/bin/bash
+#
+# Regards, the Alveare Solutions society.
+#
+
+declare -A PM_DEFAULT
+declare -A PM_LIB
+declare -A PM_SOURCE
+declare -A PM_DECOMPOSE
+declare -A PM_BEHAVIOURS_OK
+declare -A PM_BEHAVIOURS_NOK
+
+# [ NOTE ]: Absolute directory path the current file is in.
+PM_DIRECTORY="$(
+    cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd
+)"
+CONF_FILE_PATH="$PM_DIRECTORY/conf/puzzle-maker.conf"
+
+PM_RUNNING_MODE="${1:-client-mode}"
+if [[ "$PM_RUNNING_MODE" == 'client-mode' ]]; then
+    source "$CONF_FILE_PATH" &> /dev/null
+    for script in ${!PM_SOURCE[@]}; do
+        source ${PM_SOURCE[$script]} &> /dev/null
+    done
+    for library in ${!PM_LIB[@]}; do
+        source ${PM_LIB[$library]} &> /dev/null
+    done
+    PUZZLE_NAME=`basename ${PM_DEFAULT['puzzle-path']}`
+    clear; echo "Setting up ($PUZZLE_NAME)..."
+    puzzle_maker_project_setup &> /dev/null
+    if [ $? -ne 0 ]; then
+        echo "$PUZZLE_NAME setup failure. Terminating."
+        exit 1
+    fi
+    handle_puzzle_playthrough
+    exit $?
+fi
+
+if [ ! -f "$CONF_FILE_PATH" ]; then
+    echo "[ WARNING ]: Config file ($CONF_FILE_PATH) not found."
+    return 1
+else
+    source "$CONF_FILE_PATH"
+fi
+
+for script in ${!PM_SOURCE[@]}; do
+    source ${PM_SOURCE[$script]}
+    if [ $? -ne 0 ]; then
+        echo "[ NOK ]: Something went wrong."\
+            "Could not load ($script) script (${PM_SOURCE[$script]})."
+    else
+        echo "[ OK ]: Successfully loaded ($script) script"\
+            "(${PM_SOURCE[$script]})."
+    fi
+done
+
+for library in ${!PM_LIB[@]}; do
+    source ${PM_LIB[$library]}
+    if [ $? -ne 0 ]; then
+        echo "[ NOK ]: Something went wrong."\
+            "Could not load ($library) library."
+    else
+        echo "[ OK ]: Successfully loaded ($library) library."
+    fi
+done
+
+# MISCELLANEOUS
+
+function init_puzzle_maker () {
+    puzzle_maker_project_setup
+    display_puzzle_maker_banner
+    if [[ "$PM_RUNNING_MODE" == 'server-cli' ]]; then
+        action_start_puzzle_server
+    else
+        init_menu 'MainController'
+    fi
+    return $?
+}
+
+init_puzzle_maker

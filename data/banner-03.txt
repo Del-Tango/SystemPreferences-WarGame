@@ -1,0 +1,44 @@
+_______________________________________________________________________________
+
+     System Preferences - Chapter (3) - Level (0) - File System Navigation
+_______________________________________________________________________________
+
+Thanks for dealing with all that minutiae, that's grunt work, I'm a genious! No
+offence. God I hope I spelled all that wright.
+
+Umm... I just got a notice about a system vulnerability regarding an executable
+file on this system. I could really use a command to find all the executable
+files paths right now, maybe we could try (find) again. They told me the file
+name is (picklerick.vuln), I just don't know where the hell it is!!
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:                                |
+|                ~$ game submit <find-command|file-path>                      |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * cd    - https://man7.org/linux/man-pages/man1/cd.1p.html
+| |_ * ls    - https://man7.org/linux/man-pages/man1/ls.1.html
+| |_ * pwd   - https://man7.org/linux/man-pages/man1/pwd.1.html
+| |_ * find  - https://linux.die.net/man/1/find
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

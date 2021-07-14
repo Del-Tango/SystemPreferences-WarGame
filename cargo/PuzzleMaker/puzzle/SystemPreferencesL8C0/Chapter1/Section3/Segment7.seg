@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: y yes Yes YES Y remember memory language english
+# BEHAVIOUR_OK: continue Wabbalabadubduuub!!
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (15) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: Process Management -
+
+Is it important for you, when thinking about shell commands to type, to think
+about the full command name instead of the alias/acronym?
+
+
+
+
+
+
+_______________________________________________________________________________

@@ -1,0 +1,46 @@
+_______________________________________________________________________________
+
+         System Preferences - Chapter (1) - Level (6) - UNIX Services
+_______________________________________________________________________________
+
+Seems good... But you know, an IOC attack could cloke the output of that command,
+we can't even trust our eyes Morty! A way to make sure is to see if we can start
+the SSH service and check the exit code.
+
+Thats not very reliable either, but it's more than nothing. Yeah, always validate
+your assumptions from multiple sources Morty! We have to give it a shot - quick,
+find a one liner that start the service and then prints the exit code.
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * ssh       - https://linux.die.net/man/1/ssh
+| |_ * service   - https://www.unix.com/man-page/Linux/8/service/
+| |_ * systemctl - https://www.man7.org/linux/man-pages/man1/systemctl.1.html
+| |_ * echo      - https://linux.die.net/man/1/echo
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+  |_* https://www.linuxcommand.org/
+  |_* https://www.unix.com
+  |_* http://textfiles.com/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

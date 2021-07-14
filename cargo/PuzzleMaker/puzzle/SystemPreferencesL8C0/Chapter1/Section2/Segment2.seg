@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: y yes Yes YES Y
+# BEHAVIOUR_OK: continue Thats my boy!
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (5) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: File Handling -
+
+Is it possible to rename a file or directory using the same command used to move
+it from one location to another?
+
+
+
+
+
+
+_______________________________________________________________________________

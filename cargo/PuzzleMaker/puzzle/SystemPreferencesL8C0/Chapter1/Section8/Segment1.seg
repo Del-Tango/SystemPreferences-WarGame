@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: path to interpreter
+# BEHAVIOUR_OK: game-over You did it Morty, you fucking did it! Plaza Hotel floor 1 access key, comming right up: d49617218125bb15b0b315b4602c6169 - Make sure you register it with Scorpion Cloud to receive all the benefits a player of your rank should have!
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (23) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: BASH -
+
+What the hell is a 'shebang' anyway? Sounds odly sexual... it's probably not,
+is it? Really? Who even came up with this?
+
+
+
+
+
+
+_______________________________________________________________________________

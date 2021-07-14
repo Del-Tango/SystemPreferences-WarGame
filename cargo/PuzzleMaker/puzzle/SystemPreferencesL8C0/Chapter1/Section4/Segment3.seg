@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: -v --assign v assign
+# BEHAVIOUR_OK: continue Wabbalabadubduuub!!
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (18) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: File Editing -
+
+AWK requires a special flag in order to set variable declarations at the command
+line. Specify the flag in either long or short notation.
+
+
+
+
+
+
+_______________________________________________________________________________

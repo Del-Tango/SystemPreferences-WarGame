@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-mode
+# EXPECTED: execute, write, read
+# BEHAVIOUR_OK: continue Thats right Morty! Damn, this whole thing is really comming along, keep at it -
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (7) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: File Handling -
+
+Using octal notation, file permissions can be either 1, 2 or 4. What does 1, 2,
+and 4 translate to in a human readable format?
+
+
+
+
+
+
+_______________________________________________________________________________

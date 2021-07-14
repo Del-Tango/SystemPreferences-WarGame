@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: yes YES Yes y
+# BEHAVIOUR_OK: continue Hmm... yeah, you got it. I may have set the bar too low. And oh, BTW Morty, press any key to continue.
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (0) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: File System Navigation -
+
+Can the UNIX (find) util search for files by name and/or type and/or permissions,
+and does it return the absolute path?
+
+
+
+
+
+
+_______________________________________________________________________________

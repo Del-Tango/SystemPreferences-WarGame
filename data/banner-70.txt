@@ -1,0 +1,39 @@
+_______________________________________________________________________________
+
+           System Preferences - Chapter (0) - Level (7) - Scripting
+_______________________________________________________________________________
+
+You ready for this or what? This is where the fun starts for you - I'm talking
+about our adventures together Morty! Thousands of them, for a million years!
+But enough of that, I got a task for you Morty, and you might just need a shell
+script for this one.
+
+Theres a port open on this machine, this time on purpose, thank you very much!
+The thing is, the port is a key, it holds the path to the final level, but you
+have to connect to it a certain number of times, you're deffinitely going to
+want a loop for this -
+
+Take a thousand loop iterations, skip all iterations that are divisible by 2 and
+5, and you should get the correct number of connections. You could use Bash, or
+maybe Python, if statements, loops, functions, whatever! I genuinely don't care!
+I don't care how you do it, just do it! DOOoOoo ITTtTtt!!
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+  |_* https://www.linuxcommand.org/
+  |_* http://textfiles.com/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

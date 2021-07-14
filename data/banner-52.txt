@@ -1,0 +1,45 @@
+_______________________________________________________________________________
+
+          System Preferences - Chapter (2) - Level (5) - Networking
+_______________________________________________________________________________
+
+Feels good, doesn't it? Getting that sweet, sweet dopamine hit, progressing
+through all these levels, learning new skills and tactics. But you're a big boy
+now Morty, and in big boy land you have to work for your domapine hit, I should
+probably teach you some resourcefulness and independence from now on.
+
+Look, you're going to have to do what you just previously did, only that you're
+going to have to find your own port number for this one. Might need tools like
+(netstat, htop, ps).
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * netstat - https://linux.die.net/man/1/netstat
+| |_ * htop    - https://linux.die.net/man/1/htop
+| |_ * ps      - https://linux.die.net/man/1/ps
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+  |_* https://www.linuxcommand.org/
+  |_* http://textfiles.com/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

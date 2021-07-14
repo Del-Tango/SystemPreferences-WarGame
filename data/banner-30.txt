@@ -1,0 +1,61 @@
+_______________________________________________________________________________
+
+        System Preferences - Chapter (0) - Level (3) - File Editing
+_______________________________________________________________________________
+
+This is getting absolutely ridiculuous!!... nothing? no comercial this time,
+huh? What are you bugs trying to keep me on my toes?! Whatever -
+
+"""
+Did you know...
+"""
+
+Oh god damn it!
+
+"""
+..that the #!/Society worked really haaard on a project called the EWallet
+Credit Clock? Yeah, obsessively, like over a year and a half, they built an
+entire virtual payment system with servers and libraries and scripts and tests,
+like, whatever happened to that man? Did you ever heard of it? Nope, that's
+what I thought. You could like, buy credits, convert them to time, buy services
+with your time, it was really cool! Guess this is a commercial for a product
+that you can't buy... yet!
+"""
+
+Commercial's over Morty! Can you believe the nerve of these insects? They just
+love interrupting me like that. Let us just get back to the task at hand, OK?
+
+Overall I would call that a job well done, wouldn't you? But Morty, umm... I see
+you haven't been taking notes, not in this universe at least. Thats my bad, I
+should have covered file editors by now. Oh God! What do they teach you at those
+schools? Such a waste of time...
+
+Come on, let me show you how its done, try creating a file called 'notes.txt'
+in the '/tmp' directory, and write a funny joke in it, as funny as it gets!
+Are you listening to me Morty? Are you even listening? This should be fun! You
+better have fun!
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+  |
+  |_ * vim  - https://linux.die.net/man/1/vim
+  |_ * sed  - https://linux.die.net/man/1/sed
+  |_ * awk  - https://linux.die.net/man/1/awk
+  |_ * nano - https://linux.die.net/man/1/nano
+  |_ * echo - https://linux.die.net/man/1/echo
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

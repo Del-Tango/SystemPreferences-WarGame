@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: y Y yes Yes YES daemon background process
+# BEHAVIOUR_OK: continue Wabbalabadubduuub!!
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (22) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: UNIX Services -
+
+Do UNIX services usually run in the background or the foreground? Explain your
+answer.
+
+
+
+
+
+
+_______________________________________________________________________________

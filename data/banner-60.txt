@@ -1,0 +1,47 @@
+_______________________________________________________________________________
+
+         System Preferences - Chapter (0) - Level (6) - UNIX Services
+_______________________________________________________________________________
+
+Morty, I might still be a little on the edge from the whole family incident. I'm
+paranoid, you know what I mean? Just want to make sure we don't have any holes in
+the system. This is important Morty! Are you even listening to me? You've got to
+focus, I'm giving you a real important task, ok?
+
+You've got to do the grunt work though, because I've got things of my own to take
+care of, and if I do your bit, who's going to do mine? Nobody! That's who,
+because I'm a genious! Just check the status of that SSH service, make sure
+it's OFF. I don't have time for this anymore -
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit <command>      |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * ssh       - https://linux.die.net/man/1/ssh
+| |_ * service   - https://www.unix.com/man-page/Linux/8/service/
+| |_ * systemctl - https://www.man7.org/linux/man-pages/man1/systemctl.1.html
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+  |_* https://www.linuxcommand.org/
+  |_* https://www.unix.com
+  |_* http://textfiles.com/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

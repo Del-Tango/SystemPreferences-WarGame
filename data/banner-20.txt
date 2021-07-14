@@ -1,0 +1,60 @@
+_______________________________________________________________________________
+
+       System Preferences - Chapter (0) - Level (2) - Process Management
+_______________________________________________________________________________
+
+New level already? Oh come on, God f...
+
+"""
+Wargaming tools, get your wargaming tools right here at Alveare Solutions, yeah,
+Alveare Solutions Tools, thats right, they're the best, look, I'll prove it:
+    - We got Obfuscators
+    - We got Backdoors
+    - We got Spiders
+    - We got Botnets!!
+    - We got frameworks for you to build your own tools
+    - Much, much more... What more could you want?
+What can I say, it's all FREE! We don't make a dime, so... I'm kinda wondering
+why I do what I do now, all I know is that I CAN'T FUCKING STOP! I live for this
+shit! Thats right ladies and gentlemen, Alveare Solutions tools, get the source
+code at - https://github.com/Del-Tango - tools, Tools, TOOLS!!
+"""
+
+Umm, Morty? Is it over? I don't know what the F that was all about about. Look,
+we don't have time for this, we're not out of the woods yet! I think the
+Friendly Enterprise Debuggers are onto us Morty!! (**burp) yeah, thats right, I
+just detected a backdoor, quick, you have to find the process identifier (PID)
+and kill it Morty, you got to do this, do it for Grandpa Morty, for the both of
+us actually!
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * grep  - https://www.man7.org/linux/man-pages/man1/grep.1.html
+| |_ * ps    - https://www.man7.org/linux/man-pages/man1/ps.1.html
+| |_ * kill  - https://www.man7.org/linux/man-pages/man1/kill.1.html
+| |_ * top   - https://www.man7.org/linux/man-pages/man1/top.1.html
+| |_ * htop  - https://www.man7.org/linux/man-pages/man1/htop.1.html
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

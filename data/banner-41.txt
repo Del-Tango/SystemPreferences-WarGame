@@ -1,0 +1,43 @@
+_______________________________________________________________________________
+
+           System Preferences - Chapter (1) - Level (4) - Cron Jobs
+_______________________________________________________________________________
+
+Alright, yeah! You got it! Now cut it off, I don't want any random code going
+off if there's a possibility that I'll forget about it, and don't get me wrong,
+but your little script may not be the most memorable thing in the world.
+
+I'll let you clean up after yourself, I still got things to do you know, I'm off
+to prepare the next level for you.
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * crontab  - https://linux.die.net/man/1/crontab
+| |_ * vim      - https://linux.die.net/man/1/vim
+| |_ * chmod    - https://www.man7.org/linux/man-pages/man1/chmod.1.html
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+  |_* https://www.linuxcommand.org/
+  |_* http://textfiles.com/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

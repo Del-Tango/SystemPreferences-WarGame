@@ -1,0 +1,53 @@
+_______________________________________________________________________________
+
+         System Preferences - Chapter (2) - Level (6) - UNIX Services
+_______________________________________________________________________________
+
+[ OK ], It worked, our chances of beeing clear **slightly** increased in my eyes.
+Although... it's always a good ideea to really think things through, you know what
+I mean Morty? I'm still wondering if they would think about that cool IOC attack,
+you know? Illusion Of Control, oh yeaah Morty, it's part of the Alveare Solutions
+toolbox, and it's FREE! Absolutely FREE, Morty! Quick!! Go to -
+
+https://github.com/Del-Tango/IOC-IllusionOfControl
+
+- and get 2, no, get 5 actually, oh good lord it's so cool I'm going to make
+several offline backups of it! (You guys better give me free shit!)
+
+Anyway, now that we know the SSH service wasn't running turn it off. If there's
+even the slightest chance that we're not PWNED, lets not make it even easier for
+them. We just may be offering ourselves on a silver platter Morty! Yeah, you can't
+just run stuff like that in the background and then.. you know, forget about it,
+thats what gets you OWNED!
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * service   - https://www.unix.com/man-page/Linux/8/service/
+| |_ * systemctl - https://www.man7.org/linux/man-pages/man1/systemctl.1.html
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+  |_* https://www.linuxcommand.org/
+  |_* https://www.unix.com
+  |_* http://textfiles.com/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

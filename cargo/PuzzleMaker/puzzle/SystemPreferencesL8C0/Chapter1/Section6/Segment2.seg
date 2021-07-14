@@ -1,0 +1,28 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: nc nmap
+# BEHAVIOUR_OK: continue Wabbalabadubduuub!!
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (21) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: Networking -
+
+Out of the following, what utils would you use to scan a machine for open ports?
+
+Commands: (nc, find, wget, curl, nmap)
+
+
+
+
+
+
+_______________________________________________________________________________

@@ -1,0 +1,57 @@
+_______________________________________________________________________________
+
+     System Preferences - Chapter (0) - Level (0) - File System Navigation
+_______________________________________________________________________________
+
+Yo, Morty! Glad you could make it! Welcome, to the Dojo... if it looks
+suspiciously similar to your dad's garage, thats because it is. We just call it
+a Dojo for dramatic effect.
+
+But Hey! This is it, Ground0 Morty! This is where you begin your training for our
+adventures together! Yeah, we might just get into some really crazy stuff later
+on, so better be ready for it, you know what I mean? I mean **Pay Attention**
+to the details! Might save your life one day.
+
+Don't look at me like that, this is your time to shine Morty, you know, prove
+your skills and get recognized for it, but I don't want to scare you just yet,
+so let's start off light, shall we? Do you think you could check and see what's
+in the **root** directory and get back to me? Just tell me what you see...
+Did you even hear what I just said? That is the, root, directory, Morty, that's
+this one (/).
+
+BTW, if you were by any chance confused as to why you're at Level0 right now, I
+just wanted to let you know that it doesn't reflect on who you are as a person,
+in any way, I mean it Morty, we just count from zero here, so... get used to it.
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type: ~$ game submit <root-files>    |
+|                                                                             |
+|   [ NOTE    ]: To skip to a level or chapter use the following commands:    |
+|                ~$ game skip <level|chapter> <NUMBER>                        |
+|                                                                             |
+|   [ PRO-TIP ]: Terminal copy/paste via key-binds can be achieved using      |
+|                <CTRL-SHIFT-C>/<CTRL-SHIFT-V>                                |
+|                                                                             |
+|   [ PRO-TIP ]: Make sure you have a text file open or a paper notebook and  |
+|                you are taking notes!                                        |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+  |
+  |_ * cd    - https://man7.org/linux/man-pages/man1/cd.1p.html
+  |_ * ls    - https://man7.org/linux/man-pages/man1/ls.1.html
+  |_ * pwd   - https://man7.org/linux/man-pages/man1/pwd.1.html
+  |_ * tree  - https://linux.die.net/man/1/tree
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

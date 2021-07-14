@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: cp ln
+# BEHAVIOUR_OK: continue Now thats what I'm talking about!! High5!
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (4) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: File Handling -
+
+Out of the following, which commands would you use to have a file in two places
+at once?
+
+Commands: (mv, cp, ln, grep)
+
+
+
+
+_______________________________________________________________________________

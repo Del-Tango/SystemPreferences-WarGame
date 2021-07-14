@@ -1,0 +1,61 @@
+_______________________________________________________________________________
+
+          System Preferences - Chapter (0) - Level (5) - Networking
+_______________________________________________________________________________
+
+"""
+Hey there. Are you a narcissistic techie who thinks the laymen are not worthy of
+his 12-6a.m. time? Do you have a strong desire to find other minds who are up
+to Your standards? The solution? A Technocratic Meritocracy -
+
+I mean Scorpion Cloud! Here you can complete Linux based logic puzzles to grow
+in rank and get access to more platform resources, wargames, and a Plaza Hotel
+floor access key which allows you to chat with other platform users.
+
+I know what you must be thinking, and yes, Scorpion Cloud was built for educational,
+social and comedic purposes. It's a meme people! And a very elaborate one, I might
+add.
+
+Play HARD, Play Nice, and meet us at the Plaza!
+
+Excellent Regards,
+The Alveare Solutions society
+"""
+
+Meh, I think I'm already getting used to this whole commercial bit. Doesn't seem
+to bother me anymore. You ready? Are you ready for this? I was thinking, I kind
+of have the bad habbit of being.. well, me, and that keeps getting us in trouble,
+big time!
+
+What if we ever need to set a machine as a rendezvous point, you know, in order
+to communicate, because we have to. If I need to send you a message that will
+save the world, because I'm a genious, and it might just save the world, just
+like in the movies, are you hearing this Morty? Are you even listening to me?!
+
+You have to learn how to open a raw socket server, so you can listen for those
+incomming messages. You can use something like (netcat) or (telnet) or something.
+Dear lord I might be drunk. So yeah, play around with that, get back to me when
+you find the right cipher, and use port (1234), it should be free around this
+time of day, I think..
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit <command>      |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+  |
+  |_ * nc     - https://linux.die.net/man/1/nc
+  |_ * telnet - https://linux.die.net/man/1/telnet
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

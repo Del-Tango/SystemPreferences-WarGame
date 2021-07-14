@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: no No NO n
+# BEHAVIOUR_OK: continue That's good Morty, Thats very good! But I think we can do better, don't you?
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (1) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: File System Navigation -
+
+Will the (pwd) command print words from Wonder Woman's diary or not? Explain your
+answer.
+
+
+
+
+
+
+_______________________________________________________________________________

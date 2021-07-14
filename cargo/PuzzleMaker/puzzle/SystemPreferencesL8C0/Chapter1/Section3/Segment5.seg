@@ -1,0 +1,27 @@
+#
+# Regards, the Alveare Solutions society.
+#
+# ANSWER_TYPE: multi-in
+# EXPECTED: 2 terminate process proc signal
+# BEHAVIOUR_OK: continue Wabbalabadubduuub!!
+# BEHAVIOUR_NOK: repeat-unindexed You re going to have to do better than that, Morty!
+#
+# The following section of the file is what will be displayed to the player
+# on this level:
+_______________________________________________________________________________
+
+              System Preferences - Chapter (13) Level (8) - Q/A?
+_______________________________________________________________________________
+
+
+[ Q/A ]: Process Management -
+
+Can the (kill) command do any of the following?
+
+    1. Stop a mans heart
+    2. Land you in jail
+    3. Resolve your deep seated anger issues
+
+Please explain your anger issues - I mean answer.
+
+_______________________________________________________________________________

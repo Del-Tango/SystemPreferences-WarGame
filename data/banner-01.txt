@@ -1,0 +1,54 @@
+_______________________________________________________________________________
+
+     System Preferences - Chapter (1) - Level (0) - File System Navigation
+_______________________________________________________________________________
+
+See? No big (**burp!) deal right? Hmm... OMG Morty! Forget about the root, I
+just got a flash of elightenment from my undisputed genius mind doped up on
+nootropics! Oh dear lord, it's like I prayed to myself and God himself answered...
+
+Everything starts with navigation!! Do you even understand the significance of
+this thing that just happened? Your parents help you navigate through life,
+life helps you navigate your parents, and now I'm going to teach you tradecraft
+starting with navigation of the UNIX file system!
+
+But to know where you're going, you must first know where you are, thats what
+the (pwd) command is all about after all. Are you catching all of this Morty?
+You can scan the terrain, as it were, in the file system even if its not your
+current location, like a radar scan you can detect files and directories at a
+distance in over the horizon land, that's fascinating to me! My God I'm edgy!
+
+Oh, we're going to have ourselves a little treasure hunt now - theres a command
+somewhere that gets you the path to all regular files in a directory, and you
+guessed it - you're going to **find** it for me. Just play around and make sure
+that it works before getting back to me, don't waste my time, I don't do time
+travel stuff Morty, I'll never get it back!
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type: ~$ game submit <your-command>  |
+|                                                                             |
+|   [ PRO-TIP ]: If you managed to end up begging God for a sign during the   |
+|                completion of this level, you're welcome. I already          |
+|                pretended to hide a clue in the chapter description, yeah,   |
+|                It's because I'm such a nice guy, if you were even wondering.|
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+  |
+  |_ * cd    - https://man7.org/linux/man-pages/man1/cd.1p.html
+  |_ * ls    - https://man7.org/linux/man-pages/man1/ls.1.html
+  |_ * pwd   - https://man7.org/linux/man-pages/man1/pwd.1.html
+  |_ * find  - https://linux.die.net/man/1/find
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

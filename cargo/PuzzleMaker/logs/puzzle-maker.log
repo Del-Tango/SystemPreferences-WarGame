@@ -1,0 +1,280 @@
+Thu 31 Dec 06:56:22 EET 2020
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m default setting ([32mlog-file - /home/sephermacronix/Projects/PuzzleMaker-Game-Server/logs/puzzle-maker.log[m).
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m default setting ([32mlib-dir - /home/sephermacronix/Projects/PuzzleMaker-Game-Server/lib[m).
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m default setting ([32mdox-dir - /home/sephermacronix/Projects/PuzzleMaker-Game-Server/dox[m).
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m default setting ([32mconf-dir - /home/sephermacronix/Projects/PuzzleMaker-Game-Server/conf[m).
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m default setting ([32msrc-dir - /home/sephermacronix/Projects/PuzzleMaker-Game-Server/src[m).
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m default setting ([32mlog-lines - 100[m).
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m default setting ([32mfile-editor - vim[m).
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m default setting ([32mpuzzle-order - sorted[m).
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m default setting ([32mconf-file - /home/sephermacronix/Projects/PuzzleMaker-Game-Server/conf/puzzle-maker.conf[m).
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m default setting ([32mlog-dir - /home/sephermacronix/Projects/PuzzleMaker-Game-Server/logs[m).
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [34mDONE[m ]: Successfully loaded [34mPuzzleMaker[m default settings.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully loaded [34mPuzzleMaker[m logging levels.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Creating menu controller [33mMainController[m...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m1[m) menu controllers: [33mdefault[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully added new menu controller [32mMainController[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Setting [36mMainController[m options...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m2[m) menu controllers: [33mdefault MainController[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mMainController[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Creating menu controller [33mLogViewer[m...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m2[m) menu controllers: [33mdefault MainController[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully added new menu controller [32mLogViewer[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Setting [36mLogViewer[m options...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m3[m) menu controllers: [33mdefault MainController LogViewer[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mLogViewer[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Creating menu controller [33mControlPanel[m...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m3[m) menu controllers: [33mdefault MainController LogViewer[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Successfully added new menu controller [32mControlPanel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Setting [36mControlPanel[m options...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Setting [36mControlPanel[m extented banner function [35mdisplay_puzzle_maker_settings[m...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Function [32mdisplay_puzzle_maker_settings[m is defined.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [34mDONE[m ]: [34mPuzzleMaker[m controller construction complete.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mMainController[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mMainController[m, Options: [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [33mMainController[m menu controller option [32mStart-Puzzle-Server[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_start_puzzle_server[m is defined.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m2[m) option keys: [33mdefault-Back default-Do-Nothing[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Menu option [32mStart-Puzzle-Server[m bind to [32maction_start_puzzle_server[m successful.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Binding [36mMainController[m option [33mLog-Viewer[m to controller [36mLogViewer[m...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mMainController[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Confirmed menu controller [32mMainController[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mMainController[m, Options: [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [33mMainController[m menu controller option [32mLog-Viewer[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Confirmed [36mMainController[m controller option [32mLog-Viewer[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mLogViewer[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Confirmed bind target menu controller [32mLogViewer[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [36mMainController[m controller jump key is [32mMainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mMainController[m, Options: [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [36mMainController[m options are [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Function resource for controller option [33mLog-Viewer[m is [32minit_menu LogViewer[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m3[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Start-Puzzle-Server[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Menu option [32mLog-Viewer[m bind to [32mLogViewer[m successful.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Binding [36mMainController[m option [33mControl-Panel[m to controller [36mControlPanel[m...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mMainController[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Confirmed menu controller [32mMainController[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mMainController[m, Options: [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [33mMainController[m menu controller option [32mControl-Panel[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Confirmed [36mMainController[m controller option [32mControl-Panel[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Confirmed bind target menu controller [32mControlPanel[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [36mMainController[m controller jump key is [32mMainController-jump-Control-Panel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mMainController[m, Options: [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [36mMainController[m options are [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Function resource for controller option [33mControl-Panel[m is [32minit_menu ControlPanel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Start-Puzzle-Server MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Menu option [32mControl-Panel[m bind to [32mControlPanel[m successful.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Binding [36mMainController[m option [33mBack[m to function [35maction_back[m...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mMainController[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mMainController[m, Options: [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mStart-Puzzle-Server Log-Viewer Control-Panel Back[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [33mMainController[m menu controller option [32mBack[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_back[m is defined.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m5[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Start-Puzzle-Server MainController-jump-Control-Panel MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Menu option [32mBack[m bind to [32maction_back[m successful.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [34mDONE[m ]: [36mMainController[m controller option binding complete.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Binding [36mLogViewer[m option [33mDisplay-Tail[m to function [35maction_display_log_tail[m...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mLogViewer[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mLogViewer[m, Options: [33mDisplay-Tail Display-Head Display-More Clear-Log Back[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mDisplay-Tail Display-Head Display-More Clear-Log Back[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [33mLogViewer[m menu controller option [32mDisplay-Tail[m exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_log_view_tail[m is defined.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m6[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server MainController-jump-Control-Panel MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [32mOK[m ]: Menu option [32mDisplay-Tail[m bind to [32maction_log_view_tail[m successful.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [33mINFO[m ]: Binding [36mLogViewer[m option [33mDisplay-Head[m to function [35maction_display_log_head[m...
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: [32mLogViewer[m menu controller exists.
+[35mSun Jul  4 01:31:29 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mLogViewer[m, Options: [33mDisplay-Tail Display-Head Display-More Clear-Log Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mDisplay-Tail Display-Head Display-More Clear-Log Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mLogViewer[m menu controller option [32mDisplay-Head[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_log_view_head[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m7[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-Tail MainController-jump-Control-Panel MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mDisplay-Head[m bind to [32maction_log_view_head[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mLogViewer[m option [33mDisplay-More[m to function [35maction_display_log_more[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mLogViewer[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mLogViewer[m, Options: [33mDisplay-Tail Display-Head Display-More Clear-Log Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mDisplay-Tail Display-Head Display-More Clear-Log Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mLogViewer[m menu controller option [32mDisplay-More[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_log_view_more[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m8[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-Tail MainController-jump-Control-Panel LogViewer-Display-Head MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mDisplay-More[m bind to [32maction_log_view_more[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mLogViewer[m option [33mClear-Log[m to function [35maction_clear_log_file[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mLogViewer[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mLogViewer[m, Options: [33mDisplay-Tail Display-Head Display-More Clear-Log Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mDisplay-Tail Display-Head Display-More Clear-Log Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mLogViewer[m menu controller option [32mClear-Log[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_clear_log_file[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m9[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More LogViewer-Display-Tail MainController-jump-Control-Panel LogViewer-Display-Head MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mClear-Log[m bind to [32maction_clear_log_file[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mLogViewer[m option [33mBack[m to function [35maction_back[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mLogViewer[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mLogViewer[m, Options: [33mDisplay-Tail Display-Head Display-More Clear-Log Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mDisplay-Tail Display-Head Display-More Clear-Log Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mLogViewer[m menu controller option [32mBack[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_back[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m10[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More LogViewer-Display-Tail MainController-jump-Control-Panel LogViewer-Clear-Log LogViewer-Display-Head MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mBack[m bind to [32maction_back[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [34mDONE[m ]: [36mLogViewer[m controller option binding complete.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mSet-Temporary-File[m to function [35maction_set_temporary_file[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mSet-Temporary-File[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_set_temporary_file[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m11[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More LogViewer-Display-Tail MainController-jump-Control-Panel LogViewer-Clear-Log LogViewer-Display-Head LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mSet-Temporary-File[m bind to [32maction_set_temporary_file[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mSet-Log-File[m to function [35maction_set_log_file[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mSet-Log-File[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_set_log_file[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m12[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More LogViewer-Display-Tail ControlPanel-Set-Temporary-File MainController-jump-Control-Panel LogViewer-Clear-Log LogViewer-Display-Head LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mSet-Log-File[m bind to [32maction_set_log_file[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mSet-Log-Lines[m to function [35maction_set_log_lines[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mSet-Log-Lines[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_set_log_lines[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m13[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More LogViewer-Display-Tail ControlPanel-Set-Temporary-File MainController-jump-Control-Panel LogViewer-Clear-Log LogViewer-Display-Head ControlPanel-Set-Log-File LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mSet-Log-Lines[m bind to [32maction_set_log_lines[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mSet-File-Editor[m to function [35maction_set_file_editor[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mSet-File-Editor[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_set_file_editor[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m14[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More ControlPanel-Set-Log-Lines LogViewer-Display-Tail ControlPanel-Set-Temporary-File MainController-jump-Control-Panel LogViewer-Clear-Log LogViewer-Display-Head ControlPanel-Set-Log-File LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mSet-File-Editor[m bind to [32maction_set_file_editor[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mSet-Puzzle-Game[m to function [35maction_set_puzzle_game[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mSet-Puzzle-Game[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_set_puzzle_game[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m15[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More ControlPanel-Set-Log-Lines LogViewer-Display-Tail ControlPanel-Set-Temporary-File MainController-jump-Control-Panel LogViewer-Clear-Log ControlPanel-Set-File-Editor LogViewer-Display-Head ControlPanel-Set-Log-File LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mSet-Puzzle-Game[m bind to [32maction_set_puzzle_game[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mSet-Puzzle-Port[m to function [35maction_set_puzzle_port[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mSet-Puzzle-Port[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_set_puzzle_port[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m16[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More ControlPanel-Set-Log-Lines LogViewer-Display-Tail ControlPanel-Set-Temporary-File ControlPanel-Set-Puzzle-Game MainController-jump-Control-Panel LogViewer-Clear-Log ControlPanel-Set-File-Editor LogViewer-Display-Head ControlPanel-Set-Log-File LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mSet-Puzzle-Port[m bind to [32maction_set_puzzle_port[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mSet-Puzzle-Order[m to function [35maction_set_puzzle_order[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mSet-Puzzle-Order[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_set_puzzle_order[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m17[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More ControlPanel-Set-Log-Lines LogViewer-Display-Tail ControlPanel-Set-Temporary-File ControlPanel-Set-Puzzle-Game MainController-jump-Control-Panel LogViewer-Clear-Log ControlPanel-Set-File-Editor LogViewer-Display-Head ControlPanel-Set-Log-File ControlPanel-Set-Puzzle-Port LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mSet-Puzzle-Order[m bind to [32maction_set_puzzle_order[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mSet-Puzzle-Directory[m to function [35maction_set_puzzle_directory[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mSet-Puzzle-Directory[m exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_set_puzzle_directory[m is defined.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m18[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More ControlPanel-Set-Log-Lines LogViewer-Display-Tail ControlPanel-Set-Temporary-File ControlPanel-Set-Puzzle-Game MainController-jump-Control-Panel LogViewer-Clear-Log ControlPanel-Set-Puzzle-Order ControlPanel-Set-File-Editor LogViewer-Display-Head ControlPanel-Set-Log-File ControlPanel-Set-Puzzle-Port LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [32mOK[m ]: Menu option [32mSet-Puzzle-Directory[m bind to [32maction_set_puzzle_directory[m successful.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mEdit-Puzzle[m to function [35maction_edit_puzzle[m...
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:30 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mEdit-Puzzle[m exists.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_edit_puzzle[m is defined.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m19[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More ControlPanel-Set-Log-Lines LogViewer-Display-Tail ControlPanel-Set-Puzzle-Directory ControlPanel-Set-Temporary-File ControlPanel-Set-Puzzle-Game MainController-jump-Control-Panel LogViewer-Clear-Log ControlPanel-Set-Puzzle-Order ControlPanel-Set-File-Editor LogViewer-Display-Head ControlPanel-Set-Log-File ControlPanel-Set-Puzzle-Port LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [32mOK[m ]: Menu option [32mEdit-Puzzle[m bind to [32maction_edit_puzzle[m successful.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mEdit-Puzzle-Banner[m to function [35maction_edit_puzzle_banner[m...
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mEdit-Puzzle-Banner[m exists.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_edit_puzzle_banner[m is defined.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m20[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More ControlPanel-Edit-Puzzle ControlPanel-Set-Log-Lines LogViewer-Display-Tail ControlPanel-Set-Puzzle-Directory ControlPanel-Set-Temporary-File ControlPanel-Set-Puzzle-Game MainController-jump-Control-Panel LogViewer-Clear-Log ControlPanel-Set-Puzzle-Order ControlPanel-Set-File-Editor LogViewer-Display-Head ControlPanel-Set-Log-File ControlPanel-Set-Puzzle-Port LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [32mOK[m ]: Menu option [32mEdit-Puzzle-Banner[m bind to [32maction_edit_puzzle_banner[m successful.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mInstall-Dependencies[m to function [35maction_install_dependencies[m...
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mInstall-Dependencies[m exists.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_install_dependencies[m is defined.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m21[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More ControlPanel-Edit-Puzzle ControlPanel-Set-Log-Lines LogViewer-Display-Tail ControlPanel-Edit-Puzzle-Banner ControlPanel-Set-Puzzle-Directory ControlPanel-Set-Temporary-File ControlPanel-Set-Puzzle-Game MainController-jump-Control-Panel LogViewer-Clear-Log ControlPanel-Set-Puzzle-Order ControlPanel-Set-File-Editor LogViewer-Display-Head ControlPanel-Set-Log-File ControlPanel-Set-Puzzle-Port LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [32mOK[m ]: Menu option [32mInstall-Dependencies[m bind to [32maction_install_dependencies[m successful.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [33mINFO[m ]: Binding [36mControlPanel[m option [33mBack[m to function [35maction_back[m...
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m4[m) menu controllers: [33mdefault MainController LogViewer ControlPanel[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu controllers detected: [33mdefault MainController LogViewer ControlPanel[m
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: [32mControlPanel[m menu controller exists.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Controller: [36mControlPanel[m, Options: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Valid menu options detected: [33mSet-Puzzle-Game Set-Puzzle-Port Set-Puzzle-Order Set-Puzzle-Directory Set-Temporary-File Set-Log-File Set-Log-Lines Set-File-Editor Edit-Puzzle Edit-Puzzle-Banner Install-Dependencies Back[m
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: [33mControlPanel[m menu controller option [32mBack[m exists.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Function [32maction_back[m is defined.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Detected ([37m22[m) option keys: [33mdefault-Back default-Do-Nothing MainController-Back MainController-Start-Puzzle-Server LogViewer-Display-More ControlPanel-Edit-Puzzle ControlPanel-Set-Log-Lines LogViewer-Display-Tail ControlPanel-Edit-Puzzle-Banner ControlPanel-Set-Puzzle-Directory ControlPanel-Set-Temporary-File ControlPanel-Set-Puzzle-Game MainController-jump-Control-Panel LogViewer-Clear-Log ControlPanel-Set-Puzzle-Order ControlPanel-Set-File-Editor ControlPanel-Install-Dependencies LogViewer-Display-Head ControlPanel-Set-Log-File ControlPanel-Set-Puzzle-Port LogViewer-Back MainController-jump-Log-Viewer[m.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [32mOK[m ]: Menu option [32mBack[m bind to [32maction_back[m successful.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [34mDONE[m ]: [36mControlPanel[m controller option binding complete.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [34mDONE[m ]: [34mPuzzleMaker[m controller setup complete.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Value [32m8080[m is a number.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [32mOK[m ]: [34mPuzzleMaker[m [32mserver port[m verifications passed.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [32mOK[m ]: [34mPuzzleMaker[m [32mOK behaviour set[m verifications passed.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [32mOK[m ]: [34mPuzzleMaker[m [32mNOK behaviour set[m verifications passed.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [32mOK[m ]: [34mPuzzleMaker[m [32mplayer answer type set[m verifications passed.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Directory [32m/home/sephermacronix/Projects/PuzzleMaker-Game-Server/puzzle/DefaultPuzzle[m exists.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [32mOK[m ]: [34mPuzzleMaker[m [32mloaded puzzle[m verifications passed.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [34mDONE[m ]: All [32mPuzzleMaker[m preliminary verifications passed.
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [35mDEBUG[m ]: Executing command ([35mncat -klp 8080 -e /home/sephermacronix/Projects/PuzzleMaker-Game-Server/puzzle-maker[m).
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [33mINFO[m ]: Running [34mPuzzleMaker[m game server at ([37m192.168.100.4:8080[m).
+[35mSun Jul  4 01:31:31 EEST 2021[m - [ [33mINFO[m ]: You migh want to put this process in the background using [35mCtrl-z[m followed by the [35mbg[m command.

@@ -1,0 +1,50 @@
+_______________________________________________________________________________
+
+         System Preferences - Chapter (4) - Level (1) - File Handling
+_______________________________________________________________________________
+
+Oh boy, Morty, I think I fucked up, I think I may have (**burp!!) really fucked
+up, my brain must of slipped for a second there. We just made everythin worse!
+We just spread the evidence, Morty! When I said copy, I meant move! Ugh, OK, we
+can fix this, but lets just try a different approach -
+
+DFE(M) - Delete Fucking Everything, Morty! As securely as possible, but the
+ideea is to delete everything, there shouldn't be anything left, of what we just
+did, doesn't matter how you do it, just do it!
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * cd    - https://man7.org/linux/man-pages/man1/cd.1p.html
+| |_ * ls    - https://man7.org/linux/man-pages/man1/ls.1.html
+| |_ * pwd   - https://man7.org/linux/man-pages/man1/pwd.1.html
+| |_ * find  - https://linux.die.net/man/1/find
+| |_ * cat   - https://www.man7.org/linux/man-pages/man1/cat.1.html
+| |_ * grep  - https://www.man7.org/linux/man-pages/man1/grep.1.html
+| |_ * mv    - https://linux.die.net/man/1/mv
+| |_ * shred - https://linux.die.net/man/1/shred
+| |_ * rm    - https://www.man7.org/linux/man-pages/man1/rm.1.html
+| |_ * chmod - https://www.man7.org/linux/man-pages/man1/chmod.1.html
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

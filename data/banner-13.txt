@@ -1,0 +1,47 @@
+_______________________________________________________________________________
+
+         System Preferences - Chapter (3) - Level (1) - File Handling
+_______________________________________________________________________________
+
+Good job Morty! But we just got in some real trouble now, yeah, aparently you
+can't just go messing with peoples names like that, theres like, laws against
+it or something. We've got to hide the evidence Morty! As well as we can -
+
+Hmm, can't seem to think of much right now, must the hole in my stomach, the
+adrenaline rush is amazing though! Quick, try copying all the files in that
+secret directory, if we're lucky we can just sweep this whole thing under the
+rug, all the evidence.
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit                |
+|_____________________________________________________________________________|
+
+You might need some of the following commands to complete this chapter. If they
+are new to you try checking some of the resources attached below, the util man
+page using the command ( ~$ man <util-name> ), or the HELP page using
+|
+| ~$ <util-name> <-h|--help>
+|
+|_* Commands:
+| |
+| |_ * cd    - https://man7.org/linux/man-pages/man1/cd.1p.html
+| |_ * ls    - https://man7.org/linux/man-pages/man1/ls.1.html
+| |_ * pwd   - https://man7.org/linux/man-pages/man1/pwd.1.html
+| |_ * find  - https://linux.die.net/man/1/find
+| |_ * cat   - https://www.man7.org/linux/man-pages/man1/cat.1.html
+| |_ * grep  - https://www.man7.org/linux/man-pages/man1/grep.1.html
+| |_ * cp    - https://linux.die.net/man/1/cp
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________

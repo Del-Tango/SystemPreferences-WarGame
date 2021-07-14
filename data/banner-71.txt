@@ -1,0 +1,45 @@
+_______________________________________________________________________________
+
+           System Preferences - Chapter (1) - Level (7) - Scripting
+_______________________________________________________________________________
+
+You know... I don't say this as often as I should but, I'm proud of you Morty!
+Most morties don't even get this far, that must mean you really are the Mortyest
+Morty - you have to be, you see, not to polish my own horn but I kind of AM the
+Rickest Rick, so there's also that.
+
+Now that you managed to connect to the key, I think it's time you build your
+own key. Use any available ports you can find, it doesnt matter, just make sure
+to remind me what the port number is.
+
+Not that I don't trust you or anything, it would just be unscientific of me not
+to check for myself. You get the point. Oh, and umm.. make sure you run it in
+the background, you know what I'm talking about Morty? Daemonize it, so you can
+have the command line available to submit this chapter.
+
+Oh, and also, theres another thing I wante to talk to you about - Really hate
+2B the Fizz of your Buzz, but seeing that you managed to get here, I assume
+you're grown up enough for me to tell you that everything you've done up to this
+point is basically child's play, so... we have a lot of work to do. Listen,
+you'll get there, just, keep at it and Trust Grandpa ;) This old goat knows what
+he's doing!
+_____________________
+|                    \
+| Fire From The Gods  \ _______________________________________________________
+|                                                                             |
+|   [ NOTE    ]: To complete the chapter type:  ~$ game submit <port-number>  |
+|_____________________________________________________________________________|
+|
+|_* Resources:
+  |
+  |_* https://grymoire.com/
+  |_* https://everythinglinux.org/
+  |_* https://linux.die.net/
+  |_* https://www.man7.org/
+  |_* https://www.linuxcommand.org/
+  |_* http://textfiles.com/
+
+
+                     ** Powered by Alveare Solutions **
+
+_______________________________________________________________________________
