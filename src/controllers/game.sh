@@ -129,10 +129,15 @@ function go_to_next_level () {
     local NEW_TAG="${N_LEVEL_NO}.0"
     local N_LEVEL_USER="${SETUP_DEFAULT['player-user']}-${N_LEVEL_NO}"
     local N_LEVEL_PASS="${USER_PASSWORDS[${N_LEVEL_USER}]}"
+    if [ -z "$N_LEVEL_PASS" ]; then
+        echo "[ ERROR ]: Could not find next level password!"\
+            "(${CURRENT_CHAPTER} -> ${NEW_TAG})"
+        return 1
+    fi
     update_chapter_file "$NEW_TAG"
     if [ $? -ne 0 ]; then
         echo "[ ERROR ]: Could not update level chapter!"
-        return 1
+        return 2
     fi
     while :; do
         echo "[ OK ]: The password for the next level is - ${N_LEVEL_PASS}"
