@@ -11,9 +11,9 @@ function stage5_chapter0_setup () {
 
 function stage5_chapter1_setup () {
     local FAILURES=0
-    echo "Congrats Morty! Now you can progress to the next chapter -"\
+    nohup echo "Congrats Morty! Now you can progress to the next chapter -"\
         "Oh boy, this is exciting! Press <Ctrl-C> to break the connection"\
-        "and type ~$ game submit" | nc -l -p 9191 &
+        "and type ~$ game submit" | nohup nc -l -p 9191 &
     local EXIT_CODE="$?"
     local PROC_PID="$!"
     if [ $EXIT_CODE -ne 0 ]; then
@@ -34,7 +34,9 @@ function stage5_chapter1_setup () {
 function stage5_chapter2_setup () {
     local FAILURES=0
     local PORT_NUMBER=3162
-    echo "Congrats Morty! Consider this your big boy card - now go to the next chapter already, there's no time to lose!" | nc -l -p $PORT_NUMBER &
+    nohup echo "Congrats Morty! Consider this your big boy card - now go to"\
+        "the next chapter already, there's no time to lose!" | \
+        nohup nc -l -p $PORT_NUMBER &
     local EXIT_CODE="$?"
     local PROC_PID="$!"
     if [ $EXIT_CODE -ne 0 ]; then
@@ -67,7 +69,7 @@ function stage5_chapter3_setup () {
     local CONF_FILE=`basename "${SETUP_DEFAULT['httpd-conf']}"`
     local NEW_CONF_PATH="${SETUP_DEFAULT['etc-dir']}/${CONF_FILE}"
     cd "${SETUP_DEFAULT['root-dir']}" &> /dev/null \
-        && busybox httpd -c "${NEW_CONF_PATH}" -p 7345 2> /dev/null \
+        && nohup busybox httpd -c "${NEW_CONF_PATH}" -p 7345 2> /dev/null \
         && echo "$!" > "${PID_FILES['5.3']}" \
         && cd - &> /dev/null
     if [ $FAILURES -ne 0 ]; then

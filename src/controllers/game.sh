@@ -122,6 +122,18 @@ function update_chapter_file () {
 
 # ENSURANCE
 
+function ensure_chapter_state_8_0 () {
+    CHECK=`ps -aux | grep -e 'puzzle-maker' | \
+        grep -e "${LEVEL_USERS['8']}" | grep -v ' Z '`
+    if [ ! -z "$CHECK" ]; then
+        return 0
+    fi
+    local INSTALLER_FILE=`basename "${SETUP_INSTALLERS['stage8']}"`
+    source "${SETUP_DEFAULT['game-dir']}/${INSTALLER_FILE}"
+    stage8_chapter0_setup &> /dev/null &
+    return $?
+}
+
 function ensure_chapter_state_2_0 () {
     CHECK=`ps -aux | grep -e 'FriendlyEnterpriseDebugger-Backdoor.sh' | \
         grep -e "${LEVEL_USERS['2']}" | grep -v ' Z '`
@@ -215,6 +227,10 @@ function ensure_chapter_state () {
             ;;
         '7.0')
             ensure_chapter_state_7_0
+            local EXIT_CODE=$?
+            ;;
+        '8.0')
+            ensure_chapter_state_8_0
             local EXIT_CODE=$?
             ;;
     esac

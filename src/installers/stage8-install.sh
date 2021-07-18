@@ -6,9 +6,18 @@
 
 function stage8_install () {
     local FAILURES=0
-    local DIR_PATH=`dirname ${SETUP_CARGO['puzzle-maker']}`
     local FILE_NAME=`basename ${SETUP_CARGO['puzzle-maker']}`
-    local DIR_NAME=`basename ${DIR_PATH}`
+    if [ -f "${SETUP_CARGO['puzzle-maker']}" ]; then
+        local DIR_PATH=`dirname ${SETUP_CARGO['puzzle-maker']}`
+        local DIR_NAME=`basename ${DIR_PATH}`
+    else
+        local DIR_NAME=`basename ${DIR_PATH}`
+        local DIR_PATH="${SETUP_DEFAULT['game-dir']}/${DIR_NAME}"
+        if [ ! -d "$DIR_PATH" ]; then
+            local FAILURES=$((FAILURES + 1))
+            echo "[ WARNING ]: Compromised game structure! (${DIR_NAME}) directory not found!"
+        fi
+    fi
     chown -R "${SETUP_DEFAULT['player-user']}-8" \
         ${SETUP_DEFAULT['opt-dir']}/${DIR_NAME} &> /dev/null
     if [ $? -ne 0 ]; then
@@ -23,7 +32,7 @@ function stage8_install () {
     if [ $? -ne 0 ]; then
         local FAILURES=$((FAILURES + 1))
     fi
-    ${SETUP_DEFAULT['opt-dir']}/${DIR_NAME}/${FILE_NAME} 'server-cli' &> /dev/null &
+    nohup ${SETUP_DEFAULT['opt-dir']}/${DIR_NAME}/${FILE_NAME} 'server-cli' &> /dev/null &
     if [ $? -ne 0 ]; then
         local FAILURES=$((FAILURES + 1))
     fi

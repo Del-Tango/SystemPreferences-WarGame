@@ -6,8 +6,22 @@
 
 function stage7_chapter0_setup () {
     local FAILURES=0
-    ${SETUP_CARGO['7.0-listener']} &
-    local PROC_PID="$!"
+    if [ -f "${SETUP_CARGO['7.0-listener']}" ]; then
+        nohup ${SETUP_CARGO['7.0-listener']} &
+        local PROC_PID="$!"
+    else
+        local FILE_NAME=`basename ${SETUP_CARGO['7.0-listener']}`
+        local DIR_PATH=`dirname ${SETUP_CARGO['7.0-listener']}`
+        local DIR_NAME=`basename $DIR_PATH`
+        local FILE_PATH="${SETUP_DEFAULT['opt-dir']}/${DIR_NAME}/${FILE_NAME}"
+        if [ ! -f "$FILE_PATH" ]; then
+            local FAILURES=$((FAILURES + 1))
+            echo "[ WARNING ]: Compromised game structure! (${FILE_NAME}) script not found!"
+        else
+            ${FILE_PATH} &
+            local PROC_PID="$!"
+        fi
+    fi
     if [ -z "$PROC_PID" ]; then
         local FAILURES=$((FAILURES + 1))
     fi
