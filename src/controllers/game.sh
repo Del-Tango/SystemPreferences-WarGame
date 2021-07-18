@@ -269,6 +269,11 @@ function go_to_next_chapter () {
     local C_LEVEL_NO=`echo "$CURRENT_CHAPTER" | cut -d'.' -f1`
     local N_CHAPTER_NO=`echo "$C_CHAPTER_NO + 1" | bc`
     local NEW_TAG="${C_LEVEL_NO}.${N_CHAPTER_NO}"
+    ensure_chapter_state "$NEW_TAG"
+    if [ $? -ne 0 ]; then
+        read -p "[ WARNING ]: Could not ensure chapter state!"\
+            "Press any key to continue -" ANSWER
+    fi
     update_chapter_file "$NEW_TAG"
     if [ $? -ne 0 ]; then
         echo "[ ERROR ]: Could not update level chapter!"
