@@ -37,15 +37,15 @@ do
 done
 exit $?
     "
-    echo "$CONTENT" > "${SCRIPT_PATH}" #&> /dev/null
+    echo "$CONTENT" > "${SCRIPT_PATH}"
     if [ $? -ne 0 ]; then
         local FAILURES=$((FAILURES + 1))
     fi
-    chown "${SETUP_DEFAULT['player-user']}-2" "${SCRIPT_PATH}" #&> /dev/null
+    chown "${LEVEL_USERS['2']}" "${SCRIPT_PATH}" #&> /dev/null
     if [ $? -ne 0 ]; then
         local FAILURES=$((FAILURES + 1))
     fi
-    chgrp "${SETUP_DEFAULT['player-user']}-2" "${SCRIPT_PATH}" #&> /dev/null
+    chgrp "${LEVEL_USERS['2']}" "${SCRIPT_PATH}" #&> /dev/null
     if [ $? -ne 0 ]; then
         local FAILURES=$((FAILURES + 1))
     fi
@@ -53,8 +53,7 @@ exit $?
     if [ $? -ne 0 ]; then
         local FAILURES=$((FAILURES + 1))
     fi
-    runuser -l "${SETUP_DEFAULT['player-user']}-2" \
-        -c "${SCRIPT_PATH}" &
+    runuser -l "${LEVEL_USERS['2']}" -c "${SCRIPT_PATH}" &
     sleep 1
     local BACKDOOR_PID=`ps -aux | grep "$SCRIPT_PATH" | grep 'Ghost-2' | \
         grep -v 'runuser' | awk '{print $2}' | egrep -v "[a-zA-Z]"`

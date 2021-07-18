@@ -19,6 +19,16 @@ function post_install () {
         echo "[ OK ]: File in position!"\
             "(${SETUP_DEFAULT['etc-dir']}/${SETUP_DEFAULT['game-conf']})"
     fi
+    for fl_path in "${SETUP_INSTALLERS[@]}"; do
+        mv "$fl_path" "${SETUP_DEFAULT['game-dir']}" &> /dev/null
+        if [ $? -ne 0 ]; then
+            local FAILURES=$((FAILURES + 1))
+            echo "[ NOK ]: Could not export game installer file!"
+        else
+            echo "[ OK ]: File in position!"\
+                "(${SETUP_DEFAULT['etc-dir']}/${SETUP_DEFAULT['game-conf']})"
+        fi
+    done
     echo "[ INFO ]: Cleaning up..."
     rm -rf ${SETUP_DEFAULT['installer-root']} &> /dev/null
     if [ $? -ne 0 ]; then

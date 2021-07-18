@@ -120,6 +120,107 @@ function update_chapter_file () {
     return $?
 }
 
+# ENSURANCE
+
+function ensure_chapter_state_2_0 () {
+    CHECK=`ps -aux | grep -e 'FriendlyEnterpriseDebugger-Backdoor.sh' | \
+        grep -e "${LEVEL_USERS['2']}" | grep -v ' Z '`
+    if [ ! -z "$CHECK" ]; then
+        return 0
+    fi
+    local INSTALLER_FILE=`basename "${SETUP_INSTALLERS['stage2']}"`
+    source "${SETUP_DEFAULT['game-dir']}/${INSTALLER_FILE}"
+    stage2_chapter0_setup &> /dev/null
+    return $?
+}
+
+function ensure_chapter_state_2_1 () {
+    CHECK=`ps -aux | grep -e 'FED-Blocker.sh' | grep -v ' Z '`
+    if [ ! -z "$CHECK" ]; then
+        return 0
+    fi
+    local INSTALLER_FILE=`basename "${SETUP_INSTALLERS['stage2']}"`
+    source "${SETUP_DEFAULT['game-dir']}/${INSTALLER_FILE}"
+    stage2_chapter1_setup &> /dev/null
+    return $?
+}
+
+function ensure_chapter_state_5_1 () {
+    CHECK=`ps -aux | grep -e '9191' | grep -e 'nc' | grep -v ' Z '`
+    if [ ! -z "$CHECK" ]; then
+        return 0
+    fi
+    local INSTALLER_FILE=`basename "${SETUP_INSTALLERS['stage5']}"`
+    source "${SETUP_DEFAULT['game-dir']}/${INSTALLER_FILE}"
+    stage5_chapter1_setup &> /dev/null
+    return $?
+}
+
+function ensure_chapter_state_5_2 () {
+    CHECK=`ps -aux | grep -e '3162' | grep -e 'nc' | grep -v ' Z '`
+    if [ ! -z "$CHECK" ]; then
+        return 0
+    fi
+    local INSTALLER_FILE=`basename "${SETUP_INSTALLERS['stage5']}"`
+    source "${SETUP_DEFAULT['game-dir']}/${INSTALLER_FILE}"
+    stage5_chapter2_setup &> /dev/null
+    return $?
+}
+
+function ensure_chapter_state_5_3 () {
+    CHECK=`ps -aux | grep '7345' | grep 'busybox' | grep 'httpd' | grep -v ' Z '`
+    if [ ! -z "$CHECK" ]; then
+        return 0
+    fi
+    local INSTALLER_FILE=`basename "${SETUP_INSTALLERS['stage5']}"`
+    source "${SETUP_DEFAULT['game-dir']}/${INSTALLER_FILE}"
+    stage5_chapter3_setup &> /dev/null
+    return $?
+}
+
+function ensure_chapter_state_7_0 () {
+    CHECK=`ps -aux | grep 'listener-7.0.nc' | grep -v ' Z '`
+    if [ ! -z "$CHECK" ]; then
+        return 0
+    fi
+    local INSTALLER_FILE=`basename "${SETUP_INSTALLERS['stage7']}"`
+    source "${SETUP_DEFAULT['game-dir']}/${INSTALLER_FILE}"
+    stage7_chapter0_setup &> /dev/null
+    return $?
+}
+
+function ensure_chapter_state () {
+    local CHAPTER_TAG="$1"
+    local EXIT_CODE=0
+    case "$CHAPTER_TAG" in
+        '2.0')
+            ensure_chapter_state_2_0
+            local EXIT_CODE=$?
+            ;;
+        '2.1')
+            ensure_chapter_state_2_1
+            local EXIT_CODE=$?
+            ;;
+        '5.1')
+            ensure_chapter_state_5_1
+            local EXIT_CODE=$?
+            ;;
+        '5.2')
+            ensure_chapter_state_5_2
+            local EXIT_CODE=$?
+            ;;
+        '5.3')
+            ensure_chapter_state_5_3
+            local EXIT_CODE=$?
+            ;;
+        '7.0')
+            ensure_chapter_state_7_0
+            local EXIT_CODE=$?
+            ;;
+    esac
+    return $EXIT_CODE
+}
+
 # GENERAL
 
 function go_to_next_level () {
@@ -133,6 +234,11 @@ function go_to_next_level () {
         echo "[ ERROR ]: Could not find next level password!"\
             "(${CURRENT_CHAPTER} -> ${NEW_TAG})"
         return 1
+    fi
+    ensure_chapter_state "$NEW_TAG"
+    if [ $? -ne 0 ]; then
+        read -p "[ WARNING ]: Could not ensure chapter state!"\
+            "Press any key to continue -" ANSWER
     fi
     update_chapter_file "$NEW_TAG"
     if [ $? -ne 0 ]; then
