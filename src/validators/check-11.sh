@@ -7,7 +7,7 @@
 USER_HOME="/home/Ghost-1"
 DIR_PATH="${USER_HOME}/.RnM"
 TARGET_DIR="${DIR_PATH}/PretentiousMOFO"
-FILE_NO=124
+FILE_NO=125
 DETECTED_FILES=()
 
 for fl_path in `find "$DIR_PATH" -executable -type f`; do
